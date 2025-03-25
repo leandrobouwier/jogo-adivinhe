@@ -1,5 +1,6 @@
 import styles from "./app.module.css"
 
+import { Input } from "./components/Input"
 import { Header } from "./components/Header"
 import { Tip } from "./components/Tip"
 import { Letter } from "./components/Letter"
@@ -20,6 +21,11 @@ export default function App() {
           <Letter value="A" />
           <Letter value="C" />
           <Letter value="T" />
+        </div>
+
+        <h4>Palpite</h4>
+        <div>
+          <Input />
         </div>
       </main>
     </div>
